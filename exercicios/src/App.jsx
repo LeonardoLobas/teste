@@ -12,8 +12,8 @@
 
 import React from "react";
 
-const entrada = [1, 2, 2, 2, 5, 6];
-const entrada2 = [1, 2, 3, 4, 5, 6];
+const entrada = [1, 2, 2, 2, 5, 6, 7, 8, 8];
+const entrada2 = [1, 2, 3, 4, 5, 5];
 
 const App = () => {
     const count = {};
