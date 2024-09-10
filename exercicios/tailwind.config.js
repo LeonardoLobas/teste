@@ -12,12 +12,12 @@ module.exports = {
             keyframes: {
                 dropHeader: {
                     "0%": {
-                        transform: "translateY(-100%)", // Começa fora da tela
-                        opacity: "0", // Invisível no início
+                        transform: "translateY(-100%)",
+                        opacity: "0",
                     },
                     "100%": {
-                        transform: "translateY(0)", // Volta à posição original
-                        opacity: "1", // Fica visível
+                        transform: "translateY(0)",
+                        opacity: "1",
                     },
                 },
             },

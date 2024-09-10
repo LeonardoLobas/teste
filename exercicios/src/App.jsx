@@ -1,6 +1,14 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Exercicio from "./exercicio";
 import HomePage from "./HomePage";
+import { register } from "swiper/element/bundle";
+import "swiper/css";
+
+register();
+import "swiper/swiper-bundle.css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const App = () => {
     const Router = createBrowserRouter([
